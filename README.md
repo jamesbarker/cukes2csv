@@ -20,7 +20,7 @@ Assuming you have ruby installed:
 
         git clone git@github.com:jarbarker/cukes2csv.git
         cd cukes2csv
-        gem install bundler
+        gem install bundler (you may need to use sudo here depending on your ruby installation)
         bundle install
 
         

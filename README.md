@@ -5,12 +5,19 @@ Take cucumber feature files and convert them to a csv that can be used for as a 
 
 Installation:
 
+Assuming you have ruby installed:
+
         git clone git@github.com:jarbarker/cukes2csv.git
         cd cukes2csv
         gem install bundler
         bundle install
-        bundle exec ruby cukes2csv.rb
+
         
+Test run:
+        bundle exec ruby cukes2csv.rb
+
+This will create a file called features.csv that you can import into a spreadsheet application.        
+
 
 Usage:
 

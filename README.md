@@ -26,7 +26,7 @@ Assuming you have ruby installed:
         
 **Test run:**
 
-To run the converter that takes cucumber cumcumber feature files and converts them to a features.csv that you can import into a spreadsheet application, type the following:
+To run the converter that takes cucumber cumcumber feature files and converts the output file **features.csv** you can then import into a spreadsheet application, type the following:
 
         bundle exec ruby cukes2csv.rb
 

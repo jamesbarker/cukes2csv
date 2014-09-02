@@ -3,6 +3,15 @@ cukes2csv
 
 Take cucumber feature files and convert them to a csv that can be used for as a test script
 
+installation:
+ 
+ git@github.com:jarbarker/cukes2csv.git
+ cd cukes2csv
+ gem install bundler
+ bundle install
+ bundle exec ruby cukes2csv.rb
+
+
 Usage:
 
 ruby cukes2csv.rb --help

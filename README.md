@@ -13,7 +13,7 @@ Assuming you have ruby installed:
         bundle install
 
         
-**Test run:**
+**Test Run:**
 
 To run the converter that takes cucumber cumcumber feature files and converts the output file **features.csv** you can then import into a spreadsheet application, type the following:
 
@@ -22,27 +22,41 @@ To run the converter that takes cucumber cumcumber feature files and converts th
 
 **Usage:**
 
-ruby cukes2csv.rb --help
-
-Usage: csv_extractor.rb [options]
-
-    -t, --tag tag                    tag (all, smoke)
-    
-    -f, --features features          Features Location
-    
-    -o, --output output              Output Location
-    
-    -s, --[no-]steps                 With Steps
-    
-    -p, --platforms x,y,z            Platforms to test on.  Eg: --p Firefox,Safari,Chrome,IE
+        ruby cukes2csv.rb --help
+        Usage: csv_extractor.rb [options]
+                -t, --tag tag                    tag (all, smoke)
+                -f, --features features          Features Location
+                -o, --output output              Output Location
+                -s, --[no-]steps                 With Steps
+                -p, --platforms x,y,z            Platforms to test on.  Eg: --p Firefox,Safari,Chrome,IE
 
 **Features:**
 
- * create test script to test against multiple platforms: ruby cukes2csv.rb --platforms Firefox,Safari,Chrome,IE
- * create full regression test scripts: ruby cukes2csv.rb --tag all
- * filter on tests with a specific tag.  Eg, create smoke test scripts: ruby cukes2csv.rb --tag smoke
- * include full steps: ruby cukes2csv.rb --steps
- * do not include steps: ruby cukes2csv.rb --no-steps
+ * create test script to test against multiple platforms: 
+ 
+        ruby cukes2csv.rb --platforms Firefox,Safari,Chrome,IE
+
+ * create full regression test scripts: 
+ 
+        ruby cukes2csv.rb --tag all
+
+ * filter on tests with a specific tag.  Eg, create smoke test scripts: 
+ 
+        ruby cukes2csv.rb --tag smoke
+
+ * include full steps:
+ 
+        ruby cukes2csv.rb --steps
+
+ * do not include steps: 
+ 
+        ruby cukes2csv.rb --no-steps
+
  * automation coverage for each feature and all features
-    
+ 
+        Processing feature file: features/browse.feature
+        - Automated Tests: 1 Scenario Tests: 2
+        Processing feature file: features/search.feature
+        - Automated Tests: 1 Scenario Tests: 2
+        -- Total Automated Tests: 2 Total Scenario Tests: 4         
 

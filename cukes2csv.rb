@@ -43,8 +43,6 @@ OptionParser.new do |opts|
 
 end.parse!
 
-p options[:platforms]
-
 def parse_feature_file_to_hash(feature_file_path)
   io = StringIO.new
   formatter = Gherkin::Formatter::JSONFormatter.new(io)

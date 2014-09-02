@@ -3,7 +3,7 @@ cukes2csv
 
 Take cucumber feature files and convert them to a csv that can be used for as a test script
 
-Installation:
+**Installation:**
 
 Assuming you have ruby installed:
 
@@ -13,13 +13,13 @@ Assuming you have ruby installed:
         bundle install
 
         
-Test run:
+**Test run:**
         bundle exec ruby cukes2csv.rb
 
 This will create a file called features.csv that you can import into a spreadsheet application.        
 
 
-Usage:
+**Usage:**
 
 ruby cukes2csv.rb --help
 
@@ -37,7 +37,7 @@ Usage: csv_extractor.rb [options]
     
 
 
-Features:
+**Features:**
 
  * create test script to test against multiple platforms: ruby cukes2csv.rb --platforms Firefox,Safari,Chrome,IE
  * create full regression test scripts: ruby cukes2csv.rb --tag all
@@ -45,3 +45,4 @@ Features:
  * include full steps: ruby cukes2csv.rb --steps
  * do not include steps: ruby cukes2csv.rb --no-steps
  * automation coverage for each feature and all features
+ 

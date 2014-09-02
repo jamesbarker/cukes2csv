@@ -1,7 +1,7 @@
 cukes2csv
 ============
 
-Take cucumber feature files and convert them to a csv that can be used for as a test script.  
+Take cucumber feature files and convert them into a csv that can be used as a manual test script.  
 
 **Installation:**
 
